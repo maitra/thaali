@@ -1,0 +1,7 @@
+* Messages are not implemented.
+* Some xevents not yet working.
+* When removing an icon, automatically move the slots after this icon to reuse its slot (or move the last icon?).
+* Write a manpage.
+
+Probably more but i can't remember!.
+Any comments please ?

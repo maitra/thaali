@@ -1,0 +1,37 @@
+Jan 13, 2015 - 0.4.2 Released
+* bring formatting into quit() function for errors with strict-checking.
+
+Jul 4, 2013 - 0.4.1 Released
+* rename to thaali
+* change configure.in to configure.ac to address deprecation issues
+* create rpm spec file
+
+Jan 6, 2007 - 0.4 Released
+* Complete reorganisation of the interface and the code
+* Only allocate necessary memory
+* Support unlimited number of icons
+* Automagically create another dock when the first one is full
+* --width and --height available, superseeding --vertical and --square
+* --multiple is default now, removed it and added --no-multiple
+* Fix bug of some applications (grip, castpodder...) having their icons at 0,0
+
+Nov 14, 2005 - 0.3 Released.
+* Allow to have square shape
+* Icons are removed when their application ask for
+* Reuse empty slots
+* Correctly resize Gaim icon
+* Code clean up
+
+Nov 16, 2004 - 0.2.1 Released.
+* Fixed compilation under new GCC versions.
+
+Jul 01, 2003 - 0.2 Released.
+* Autotools used for building.
+* Set the background to the harbour one.
+* Command line options.
+* The ability to be layed vertically.
+* The ability to open each icon in a separate window. "thanks A. Pagaltzis"
+* Resize the icons to the default size.
+* Fixed compilation against Sun Openwindows "thanks pekdon"
+
+Jun 14, 2003 - 0.1 Released.

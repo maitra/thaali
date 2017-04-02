@@ -1,0 +1,35 @@
+Description:
+Thaali is a fork of the apparently defunct pekSysTray. Both of them are system trays "notification area" dockapp similar to the GNOME
+notification area applet. But it's designed for any window manager supporting 
+docking. It created blocks that contains the icons, when a block is full (no 
+more space for other icons) a new block is created. The call to invoke thaali is the same as that of peksystray.
+
+Requirements:
+X, gcc.
+
+Installation:
+make
+make install
+
+Running:
+thaali --help ;-)
+
+Example:
+* To have horizontal lines of four icons of 16x16 (the default):
+thaali
+* For WindowMaker, blocks of 64x64 containing 4 icons:
+thaali --border 2 --icon-size 30 --width 64 --height 64
+* To have one new window per icon:
+thaali --icon-size 48 --width 48 --height 48
+
+License:
+GNU GPL.
+See the LICENSE file.
+
+Help:
+Check the TODO file if there is any ;)
+
+Contact:
+Mohammed Sameer <msameer@foolab.org>
+Eric Piel <eric.piel (at) tremplin-utc.net>
+Ranjan Maitra (for thaali)
